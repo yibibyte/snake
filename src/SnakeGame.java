@@ -25,7 +25,6 @@ public class SnakeGame extends JPanel implements ActionListener {
     private boolean down = false;
     private boolean inGame = true;
 
-
     public SnakeGame() {
         setBackground(Color.orange);
         loadImages();

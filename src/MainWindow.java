@@ -2,11 +2,11 @@ import javax.swing.*;
 
 public class MainWindow extends JFrame {
 
-    public MainWindow(){
+    public MainWindow() {
         setTitle("Snaaaake");
         setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
-        setSize(370,390);
-        setLocation(370,390);
+        setSize(370, 390);
+        setLocation(370, 390);
         add(new SnakeGame());
         setVisible(true);
     }
